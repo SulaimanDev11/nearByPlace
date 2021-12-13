@@ -147,9 +147,7 @@ class _HomeViewState extends State<HomeView> {
             () => !isLoading.value
                 ? GoogleMap(
                     mapType: MapType.hybrid,
-                    initialCameraPosition: CameraPosition(
-                        target: LatLng(position.latitude, position.longitude),
-                        zoom: 100),
+                    initialCameraPosition: cameraPosition!,
                     zoomControlsEnabled: true,
                     myLocationButtonEnabled: true,
                     myLocationEnabled: true,
