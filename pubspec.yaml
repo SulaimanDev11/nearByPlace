@@ -1,0 +1,27 @@
+name: near_by_place
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+
+  google_maps_flutter: ^2.1.1
+  google_place: ^0.4.3
+  geolocator: ^8.0.0
+  
+  get: 4.5.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
